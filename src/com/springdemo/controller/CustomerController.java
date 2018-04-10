@@ -20,7 +20,7 @@ import com.springdemo.service.CustomerService;
 @RequestMapping("/customer")
 public class CustomerController {
 	
-	//need the inject customer sevice
+	//need the inject customer service
 @Autowired
 private CustomerService customerService;
 
